@@ -200,7 +200,7 @@ namespace C_sharp_Lesson3
                 else
                     Console.WriteLine("Високосный");
 
-                Console.WriteLine((((year % 4 != 0) || ((year % 100 == 0) && (year % 400 != 0))) ? "Нев" : "В") + "исокосный");
+                Console.WriteLine((((year % 4 != 0) || ((year % 400 != 0) && (year % 100 == 0))) ? "Нев" : "В") + "исокосный");
             }
 
 
