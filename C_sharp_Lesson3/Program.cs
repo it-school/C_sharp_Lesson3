@@ -42,15 +42,16 @@ namespace C_sharp_Lesson3
 
             Console.WriteLine("\nПобитовые операции");
             a = 18; // 00010010
-                    //         11101101
+                    // 11101101
 
             Console.WriteLine(a);
             Console.WriteLine(~a);
             a = a + ~a;
             Console.WriteLine(a + 1);
-
             a = (int)d;
             Console.WriteLine(a);
+
+
 
             double q = (new Random()).Next(10000);
             Console.WriteLine(q = q / 100);
@@ -69,6 +70,8 @@ namespace C_sharp_Lesson3
             n = n << 2; // 4 * 2 * 2 = 16
             n <<= 2;    // 16 * 2 * 2 = 64
             Console.WriteLine(n);
+
+
 
             Console.WriteLine("\nТернарный оператор");
             bool res1 = false, res2 = false;
